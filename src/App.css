@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: red 1px dotted; */
+}
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-repeat: no-repeat;
+  background: rgb(234, 230, 229);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(234, 230, 229, 1) 90%,
+    rgba(199, 177, 152, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(234, 230, 229, 1) 90%,
+    rgba(199, 177, 152, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(234, 230, 229, 1) 90%,
+    rgba(199, 177, 152, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eae6e5",endColorstr="#c7b198",GradientType=1);
+  color: #12130f;
+}
+
+.navigation {
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px;
+  width: 160px;
+  filter: invert(50%);
+}
+
+.links {
+  font-size: 23px;
+}
+.listed-links {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.hero {
+  width: 95%;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  height: 65dvh;
+  display: flex;
+  align-items: center;
+  color: #eae6e5;
+}
+
+.hero::before {
+  content: " ";
+  background-image: url(./assets/fitness.jpg);
+  width: 100%;
+  border-radius: 20px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  filter: blur(1px) brightness(80%);
+  isolation: isolate;
+  z-index: -1;
+  height: 65dvh;
+}
+
+.hero-center-container {
+  width: 600px;
+  aspect-ratio: 2/1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3em;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  padding: 2em;
+  color: white;
+}
+.hero-center-container::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url(./assets/EnvoyFiji.png);
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: scale(1.8);
+  isolation: isolate;
+  border-radius: 10px;
+  filter: blur(2px);
+}
+
+.hero-description {
+  width: 70%;
+  font-size: 20px;
+  text-align: start;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.hero-link {
+  background-color: #12130f;
+  font-size: 23px;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.fitness-description-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 6em;
+}
+
+.fitness-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.fitness-description {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.7;
+  width: 70%;
+  margin: 0 auto;
+  outline: 1px solid;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.fitness-description::before {
+  content: open-quote;
+  font-size: 80px;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.fitness-description::after {
+  content: close-quote;
+  font-size: 80px;
+  position: absolute;
+  bottom: -40px;
+  right: 430px;
+}
+
+.product-gallery-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 40px;
+}
+.product-container {
+  height: 100%;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.product-gallery {
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  outline: 1px solid;
+  padding: 20px;
+  align-items: center;
+  gap: 4em;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex-basis: 25%;
+  border-radius: 10px;
+  aspect-ratio: 1/1.5;
+  position: relative;
+  overflow: hidden;
+  text-align: start;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.product-card:hover {
+  transition: box-shadow 700ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 800ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.description {
+  width: 85%;
+  padding: 10px;
+  color: #eae6e5;
+}
+.product-description {
+  font-size: 17px;
+}
+.image-card {
+  object-fit: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  object-position: left;
+  filter: brightness(40%);
+  z-index: -10;
+}
+
+.history-container {
+  width: 95%;
+  margin-inline: auto;
+  position: relative;
+  height: 100%;
+  margin-top: 100px;
+  color: #eae6e5;
+  padding: 5em;
+  
+}
+
+.history-title {
+  font-size: 27px;
+  width: 60%;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.history-container::before {
+  content: "";
+  border-radius: 20px;
+  background-image: url(./assets/landscape.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  isolation: isolate;
+  filter: brightness(40%);
+}
+.history {
+  outline: 1px solid;
+  margin-inline: auto;
+  padding: 2em;
+  width: 60%;
+  text-align: start;
+  border-radius: 20px;
+}
+
+.history-description {
+  font-size: 23px;
+  line-height: 1.6;
+}
+
+
+.testimonials-container{
+  height: 200vh;
+}
