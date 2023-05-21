@@ -7,6 +7,7 @@ import ProductGallery from "./components/productgallery.components";
 import FitnessDescription from "./components/fitnessdescription.components";
 import History from "./components/history.components";
 import Testimonials from "./components/testimonials.components";
+import Newsletter from "./components/newsletter.component";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <FitnessDescription/> 
       <ProductGallery/>
       <History/>
+      <Newsletter/>
       <Testimonials/>
     </>
   );
