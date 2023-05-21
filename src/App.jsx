@@ -8,17 +8,19 @@ import FitnessDescription from "./components/fitnessdescription.components";
 import History from "./components/history.components";
 import Testimonials from "./components/testimonials.components";
 import Newsletter from "./components/newsletter.component";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <>
-      <NavBar src={logo} />
+      <NavBar/>
       <HeroSection />
       <FitnessDescription/> 
       <ProductGallery/>
       <History/>
       <Newsletter/>
       <Testimonials/>
+      <Footer/>
     </>
   );
 }

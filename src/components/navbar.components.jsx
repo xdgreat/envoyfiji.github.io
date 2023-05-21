@@ -1,10 +1,11 @@
-function NavBar({ src }) {
+import logo from '../assets/EnvoyFiji.png'
+function NavBar() {
   return (
     <>
       <nav className="navigation">
         <div className="logo-container">
           <a href="">
-            <img src={src} alt="" className="logo" />
+            <img src={logo} alt="" className="logo" />
           </a>
         </div>
         <div className="listed-links">

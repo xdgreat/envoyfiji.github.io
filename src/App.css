@@ -15,23 +15,7 @@
 body {
   font-family: "Mulish", sans-serif;
   background-repeat: no-repeat;
-  background: rgb(234, 230, 229);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(234, 230, 229, 1) 90%,
-    rgba(199, 177, 152, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(234, 230, 229, 1) 90%,
-    rgba(199, 177, 152, 1) 100%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(234, 230, 229, 1) 90%,
-    rgba(199, 177, 152, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eae6e5",endColorstr="#c7b198",GradientType=1);
+  background:#D6D1CD;
   color: #12130f;
 }
 
@@ -59,7 +43,6 @@ body {
   width: 300px;
   margin-right: 10px;
 }
-
 
 .hero {
   width: 95%;
@@ -93,9 +76,7 @@ body {
 .hero-center-container {
   width: 600px;
   aspect-ratio: 2/1;
-  text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-left: 3em;
   flex-direction: column;
@@ -129,15 +110,20 @@ body {
 
 .hero-buttons {
   margin-top: 20px;
+  justify-content: start;
   display: flex;
   gap: 20px;
 }
 
 .hero-link {
-  background-color: #12130f;
   font-size: 23px;
   border: 1px solid;
   padding: 5px;
+}
+
+.hero-link:hover {
+  background-color: #12130f;
+  transition: background-color 200ms ease-in-out;
 }
 
 .fitness-description-container {
@@ -270,7 +256,7 @@ body {
   margin-inline: auto;
   padding: 2em;
   width: 60%;
-  text-align: start;
+  text-align: center;
   border-radius: 20px;
 }
 
@@ -284,7 +270,7 @@ body {
   height: 100%;
   background-color: #12130f;
   color: white;
-  margin-block-start: 5em;
+  /* margin-block-start: 5em; */
   padding: 2em;
 }
 .newsletter-description {
@@ -321,7 +307,7 @@ body {
   border-radius: 0 10px 10px 0;
   outline: none;
   border: none;
-  background-color: #FFC100;
+  background-color: #ffc100;
   cursor: pointer;
   color: #12130f;
 }
@@ -331,7 +317,69 @@ body {
   background-color: #ff8200;
 }
 
-
 .testimonials-container {
+  margin-top: 3em;
+  width: 80%;
+  row-gap: 70px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
   height: 100dvh;
+}
+
+.testimonial-image {
+  width: 200px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  /* transform: translateY(-20%); */
+}
+.testimonial-quote{
+  font-size: 20px;
+}
+.testimonial-content{
+  padding: 2em;
+}
+
+.testimonial-container-title{
+  text-align: center;
+  font-size: 50px;
+}
+
+.testimonial-profile {
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-inline: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #F8F7F9;
+  position:relative;
+}
+
+.testimonial-profile::after{
+content: '';
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+  isolation: isolate;
+  filter: opacity(.1);
+  border-radius: 10px;
+}
+
+
+.testimonial-profile:hover::after{
+  transition: filter 500ms cubic-bezier(0.215, 0.610, 0.355, 1);
+  filter: opacity(0);
+}
+
+.testimonial-profile:hover{
+  
+  transition: transform 500ms cubic-bezier(0.215, 0.610, 0.355, 1);
+  transform: scale(1.01);
 }
