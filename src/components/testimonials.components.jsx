@@ -21,7 +21,6 @@ function Testimonials() {
         />
         <TestimonialsProfile
           name={"Riddhi"}
-          age={13}
           quote={
             "These products helped me reach my fitness goals faster than I ever imagined. Highly recommended!"
           }
