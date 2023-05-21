@@ -4,6 +4,8 @@ import sarah from "../assets/sarah.jpg";
 import ridi from "../assets/ridi.jpg"
 import waji from "../assets/waji.jpg"
 import jas from "../assets/jas.png"
+import nitij from "../assets/nitij.jpg"
+import aroush from "../assets/aroush.jpg"
 
 function Testimonials() {
   return (
@@ -19,6 +21,7 @@ function Testimonials() {
         />
         <TestimonialsProfile
           name={"Riddhi"}
+          age={13}
           quote={
             "These products helped me reach my fitness goals faster than I ever imagined. Highly recommended!"
           }
@@ -27,30 +30,30 @@ function Testimonials() {
         <TestimonialsProfile
           name={"Waji"}
           quote={
-            "I was skeptical at first, but these fitness essentials completely transformed my workouts. I feel stronger and more motivated than ever."
+            "I was new to the gym and looking for a reliable website that sold me honest to god products, i still haven't found one yet."
           }
           imagesrc={waji}
         />
         <TestimonialsProfile
           name={"Jasnil"}
           quote={
-            "The quality and effectiveness of these fitness essentials are unmatched. I've seen significant improvements in my performance and overall fitness level."
+            "I'm not funny i'm just always silly and people think i'm joking"
           }
           imagesrc={jas}
         />
         <TestimonialsProfile
-          name={"Lisa"}
+          name={"Nitij"}
           quote={
-            "I struggled with consistency, but these fitness essentials made exercising enjoyable. Now, I look forward to my workouts every day!"
+            "I love gyming and was looking for a solid site to promote my program, safe to say i'm still in search :D"
           }
-          imagesrc={sarah}
+          imagesrc={nitij}
         />
         <TestimonialsProfile
-          name={"Alex"}
+          name={"Aroush"}
           quote={
-            "I never thought I could achieve my fitness goals until I discovered these incredible products. They exceeded my expectations and gave me the results I wanted."
+            "Thanks to this program I am literally Batman now. I can finally save the city. I am vengeance."
           }
-          imagesrc={sarah}
+          imagesrc={aroush}
         />
       </div>
     </>
