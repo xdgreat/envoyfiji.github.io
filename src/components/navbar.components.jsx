@@ -8,6 +8,10 @@ function NavBar() {
             <img src={logo} alt="" className="logo" />
           </a>
         </div>
+        <div className="search-bar">
+          <input type="text" name="searchbar" id="searchbar" placeholder="Search products..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
         <div className="listed-links">
           <a href="/" className="links">
             Home

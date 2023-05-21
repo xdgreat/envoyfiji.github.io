@@ -1,18 +1,17 @@
-import React from 'react';
+import React from "react";
 
-function TestimonialsProfile({name,quote,imagesrc}){
-    return (
-        <>
-        <div className="testimonial-profile">
+function TestimonialsProfile({ name, quote, imagesrc }) {
+  return (
+    <>
+      <div className="testimonial-profile" id="profile">
         <img src={imagesrc} alt="" className="testimonial-image" />
         <div className="testimonial-content">
-
-        <h1 className="testimonial-name">{name}</h1>
-        <p className="testimonial-quote">{quote}</p>
+          <h1 className="testimonial-name">{name}</h1>
+          <p className="testimonial-quote">{quote}</p>
         </div>
-        </div>
-        </>
-    );
+      </div>
+    </>
+  );
 }
 
 export default TestimonialsProfile;
