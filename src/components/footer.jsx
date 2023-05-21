@@ -14,19 +14,19 @@ const Footer = () => {
               </h2>
             </div>
             <div className="footer-column-two">
-              <a href="#motivation">Motivation</a>
-              <a href="#fitness">Fitness Hub</a>
-              <a href="#history">Our History</a>
+              <a href="#motivation" className="footer-text">Motivation</a>
+              <a href="#fitness" className="footer-text">Fitness Hub</a>
+              <a href="#history" className="footer-text">Our History</a>
             </div>
             <div className="footer-column-three">
-              <a href="#newsletter">Newsletter</a>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#newsletter" className="footer-text">Newsletter</a>
+              <a href="#testimonials" className="footer-text">Testimonials</a>
             </div>
             <div className="footer-column-four">
-              <a href="/">Home</a>
-              <a href="/about">Contact Us</a>
-              <a href="">About</a>
-              <a href="/product">Products</a>
+              <a href="/" className="footer-text">Home</a>
+              <a href="/about" className="footer-text">Contact Us</a>
+              <a href="" className="footer-text">About</a>
+              <a href="/product" className="footer-text">Products</a>
             </div>
           </div>
           <hr />
@@ -38,7 +38,7 @@ const Footer = () => {
             <i class="fa-solid fa-wifi"></i>
           </div>
           <div className="footer-row-three">
-            <p className="copyright">©Copyright. All rights reserved.</p>
+            <p className="copyright footer-text">©Copyright. All rights reserved.</p>
           </div>
         </div>
       </footer>

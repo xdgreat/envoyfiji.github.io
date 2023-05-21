@@ -526,6 +526,10 @@ footer {
   padding: 1em;
 }
 
+.footer-text{
+  font-size: .8em;
+}
+
 .fa-brands,
 .fa-wifi{
   font-size: 35px;
