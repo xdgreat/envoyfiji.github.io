@@ -5,7 +5,7 @@ import ridi from "../assets/ridi.jpg"
 import waji from "../assets/waji.jpg"
 import jas from "../assets/jas.png"
 import nitij from "../assets/nitij.jpg"
-import aroush from "../assets/aroush.jpg"
+import abinash from "../assets/abinash.jpg"
 
 function Testimonials() {
   return (
@@ -48,11 +48,11 @@ function Testimonials() {
           imagesrc={nitij}
         />
         <TestimonialsProfile
-          name={"Aroush"}
+          name={"Abinash"}
           quote={
             "Thanks to this program I am literally Batman now. I can finally save the city. I am vengeance."
           }
-          imagesrc={aroush}
+          imagesrc={abinash}
         />
       </div>
     </>
