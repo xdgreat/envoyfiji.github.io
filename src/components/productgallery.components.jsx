@@ -6,7 +6,7 @@ import recipeImage from "../assets/recipe.jpg";
 function ProductGallery() {
   return (
     <>
-      <div className="product-container">
+      <div className="product-container" id="fitness">
         <h1 className="product-gallery-title">Your Fitness Hub</h1>
         <div className="product-gallery">
           <ProductCard

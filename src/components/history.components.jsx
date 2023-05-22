@@ -1,7 +1,7 @@
 function History() {
   return (
     <>
-      <div className="history-container">
+      <div className="history-container" id="history">
         <div className="history-title">
           <h1>Envoy Fiji: Empowering Fitness Journeys Since 1968.</h1>
         </div>

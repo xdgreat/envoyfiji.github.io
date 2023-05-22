@@ -36,25 +36,27 @@ const Footer = () => {
               <a href="/" className="footer-text">
                 Home
               </a>
+              <a href="/product" className="footer-text">
+                Products
+              </a>
               <a href="/about" className="footer-text">
                 Contact Us
               </a>
               <a href="" className="footer-text">
                 About
               </a>
-              <a href="/product" className="footer-text">
-                Products
-              </a>
             </div>
           </div>
           <hr />
           <div className="footer-row-two">
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/envoy.fiji/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-facebook-messenger"></i>
             <i class="fa-solid fa-wifi"></i>
-            <a href=".https://github.com/xdgreat/envoyfijireactproject.git">
+            <a href="https://github.com/xdgreat/envoyfijireactproject.git">
               <i class="fa-brands fa-github"></i>
             </a>
           </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <>
-      <div className="newsletter-container">
+      <div className="newsletter-container" id="newsletter">
         <div className="newsletter-description">
           <h1 className="newsletter-title">Subscribe to Our Newsletter</h1>
           <p className="newsletter-content">

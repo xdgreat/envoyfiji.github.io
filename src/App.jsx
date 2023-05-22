@@ -13,14 +13,14 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <NavBar/>
+      <NavBar />
       <HeroSection />
-      <FitnessDescription/> 
-      <ProductGallery/>
-      <History/>
-      <Newsletter/>
-      <Testimonials/>
-      <Footer/>
+      <FitnessDescription />
+      <ProductGallery />
+      <History />
+      <Newsletter />
+      <Testimonials />
+      <Footer />
     </>
   );
 }

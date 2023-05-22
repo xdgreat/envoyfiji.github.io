@@ -10,7 +10,7 @@ import aroush from "../assets/aroush.jpg"
 function Testimonials() {
   return (
     <>
-      <h1 className="testimonial-container-title">What Our Customers Say.</h1>
+      <h1 className="testimonial-container-title" id="testimonials">What Our Customers Say.</h1>
       <div className="testimonials-container">
         <TestimonialsProfile
           name={"Shane & Shahaan"}
