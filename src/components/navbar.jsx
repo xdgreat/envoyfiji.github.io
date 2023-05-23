@@ -15,7 +15,7 @@ function NavBar() {
             Home
           </a>
 
-          <a href="" className="links">
+          <a href="/about" className="links">
             About
           </a>
           <a href="/product" className="links">

@@ -1,16 +1,17 @@
 import React from "react";
-import NavBar from "../components/navbar.components";
-import logo from '../assets/EnvoyFiji.png'
+import NavBar from "../components/navbar";
 import '../reset.css'
 import '../App.css'
+import Footer from "../components/footer";
 
 
-function ProductPage() {
+function Product() {
   return (
     <>
     <NavBar/>
+    
     </>
   );
 }
 
-export default ProductPage;
+export default Product;
