@@ -151,6 +151,7 @@ body {
 }
 
 .fitness-description-container {
+
   text-align: center;
   margin: 0 auto;
   margin-top: 4em;
@@ -378,7 +379,7 @@ body {
 }
 
 .testimonial-profile {
-  height: 550px;
+  aspect-ratio: 1/1.5;
   width: 400px;
   text-align: center;
   display: flex;
@@ -473,7 +474,7 @@ footer {
   margin-inline: auto;
   border-radius: 40px;
   transform: translateY(-50%);
-  height: 50dvh;
+  height: 45dvh;
   overflow: hidden;
   padding: 2em;
   color: #efe6dd;
@@ -545,6 +546,12 @@ footer {
 .footer-row-three{
   display: flex;
   justify-content: center;
+}
+
+.names{
+  color: white;
+  z-index: 2;
+  background-color: red;
 }
 /* .footer-container::before {
   content: "";

@@ -1,13 +1,12 @@
 import "./App.css";
 import "./reset.css";
-import logo from "./assets/EnvoyFiji.png";
-import NavBar from "./components/navbar.components";
-import HeroSection from "./components/herosection.components";
-import ProductGallery from "./components/productgallery.components";
-import FitnessDescription from "./components/fitnessdescription.components";
-import History from "./components/history.components";
-import Testimonials from "./components/testimonials.components";
-import Newsletter from "./components/newsletter.component";
+import NavBar from "./components/navbar";
+import HeroSection from "./components/herosection";
+import ProductGallery from "./components/productgallery";
+import FitnessDescription from "./components/fitnessdescription";
+import History from "./components/history";
+import Testimonials from "./components/testimonials";
+import Newsletter from "./components/newsletter";
 import Footer from "./components/footer";
 
 function App() {

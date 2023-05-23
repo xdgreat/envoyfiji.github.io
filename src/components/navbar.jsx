@@ -1,5 +1,5 @@
-import logo from '../assets/EnvoyFiji.png'
-import Searchbar from './searchbar';
+import logo from "../assets/EnvoyFiji.png";
+import Searchbar from "./searchbar";
 function NavBar() {
   return (
     <>
@@ -9,19 +9,17 @@ function NavBar() {
             <img src={logo} alt="" className="logo" />
           </a>
         </div>
-        <Searchbar/>
+        <Searchbar />
         <div className="listed-links">
           <a href="/" className="links">
             Home
           </a>
-          <a href="/product" className="links">
-            Product
-          </a>
-          <a href="" className="links">
-            Contact
-          </a>
+
           <a href="" className="links">
             About
+          </a>
+          <a href="/product" className="links">
+            Product
           </a>
           <a href="" className="links">
             <i class="fa-solid fa-cart-shopping shopping-cart"></i>

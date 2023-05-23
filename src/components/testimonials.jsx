@@ -1,6 +1,5 @@
-import TestimonialsProfile from "./testimonialsprofile.component";
+import TestimonialsProfile from "./testimonialsprofile";
 import shahaanxshane from '../assets/shahaanxshane.jpg'
-import sarah from "../assets/sarah.jpg";
 import ridi from "../assets/ridi.jpg"
 import waji from "../assets/waji.jpg"
 import jas from "../assets/jas.png"
@@ -13,47 +12,48 @@ function Testimonials() {
       <h1 className="testimonial-container-title" id="testimonials">What Our Customers Say.</h1>
       <div className="testimonials-container">
         <TestimonialsProfile
-          name={"Shane & Shahaan"}
+          name={"Sharad & Shahaan"}
           quote={
             "As a gym couple the program has benefited alot into our relationship which has become less abusive and more healthy and loving."
           }
           imagesrc={shahaanxshane}
         />
         <TestimonialsProfile
-          name={"Riddhi"}
+          name={"Riddhi Bharat"}
           quote={
-            "These products helped me reach my fitness goals faster than I ever imagined. Highly recommended!"
+            "I just received this 20kg bar gym equipment thing but i genuinely can not lift it to save my life but maybe im just a moron who doesnt know how to use gym equipments. all in all the shipping was very fast and efficient with really handy products since i will be using my pink pilates mat to show off to my rich mom's friends i will totally recommend this to them"
           }
           imagesrc={ridi}
         />
         <TestimonialsProfile
-          name={"Waji"}
+          name={"Waji Munshi"}
           quote={
             "I was new to the gym and looking for a reliable website that sold me honest to god products, i still haven't found one yet."
           }
           imagesrc={waji}
         />
         <TestimonialsProfile
-          name={"Jasnil"}
+          name={"Jasnil Singh"}
           quote={
             "I'm not funny i'm just always silly and people think i'm joking"
           }
           imagesrc={jas}
         />
         <TestimonialsProfile
-          name={"Nitij"}
+          name={"Nitij Shankar"}
           quote={
             "I love gyming and was looking for a solid site to promote my program, safe to say i'm still in search :D"
           }
           imagesrc={nitij}
         />
         <TestimonialsProfile
-          name={"Abinash"}
+          name={"Abinash Rout"}
           quote={
             "Thanks to this program I am literally Batman now. I can finally save the city. I am vengeance."
           }
           imagesrc={abinash}
         />
+        
       </div>
     </>
   );

@@ -65,6 +65,7 @@ const Footer = () => {
               ©Copyright. All rights reserved.
             </p>
           </div>
+        <h1 className="names">Created by nikhil</h1>
         </div>
       </footer>
     </>

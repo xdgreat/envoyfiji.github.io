@@ -1,4 +1,4 @@
-import ProductCard from "./productcards.components";
+import ProductCard from "./productcards";
 import gymImage from "../assets/gym.jpg";
 import adviceImage from "../assets/advice.jpg";
 import recipeImage from "../assets/recipe.jpg";
