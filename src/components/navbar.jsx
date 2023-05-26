@@ -22,7 +22,7 @@ function NavBar() {
             Product
           </a>
           <a href="" className="links">
-            <i class="fa-solid fa-cart-shopping shopping-cart"></i>
+            <i className="fa-solid fa-cart-shopping shopping-cart"></i>
           </a>
         </div>
       </nav>

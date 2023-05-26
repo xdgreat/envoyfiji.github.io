@@ -1,15 +1,20 @@
 import TestimonialsProfile from "./testimonialsprofile";
-import shahaanxshane from '../assets/shahaanxshane.jpg'
-import ridi from "../assets/ridi.jpg"
-import waji from "../assets/waji.jpg"
-import jas from "../assets/jas.png"
-import nitij from "../assets/nitij.jpg"
-import abinash from "../assets/abinash.jpg"
+import shahaanxshane from "../assets/shahaanxshane.jpg";
+import ridi from "../assets/ridi.jpg";
+import waji from "../assets/waji.jpg";
+import jas from "../assets/jas.png";
+import nitij from "../assets/nitij.jpg";
+import abinash from "../assets/abinash.jpg";
+import annsh from "../assets/annsh.jpg";
+import zeno from "../assets/zeno.jpg";
+import nicole from "../assets/nicole.jpg";
 
 function Testimonials() {
   return (
     <>
-      <h1 className="testimonial-container-title" id="testimonials">What Our Customers Say.</h1>
+      <h1 className="testimonial-container-title" id="testimonials">
+        What Our Customers Say.
+      </h1>
       <div className="testimonials-container">
         <TestimonialsProfile
           name={"Sharad & Shahaan"}
@@ -53,7 +58,25 @@ function Testimonials() {
           }
           imagesrc={abinash}
         />
-        
+        <TestimonialsProfile
+          name={"Annsh Naidu"}
+          quote={
+            "Thanks to this website, I was able to find good fish and chips in my area."
+          }
+          imagesrc={annsh}
+        />
+        <TestimonialsProfile
+          name={"Zeno"}
+          quote={
+            "Bless this fitness program, I ain't lazy anymore (I still am)"
+          }
+          imagesrc={zeno}
+        />
+        <TestimonialsProfile
+          name={"Nicole Singh"}
+          quote={"I love Nikhil."}
+          imagesrc={nicole}
+        />
       </div>
     </>
   );

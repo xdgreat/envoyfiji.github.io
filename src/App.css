@@ -40,6 +40,23 @@ body {
 
 .links {
   font-size: 23px;
+  position: relative;
+}
+.links::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  background-color: #12130f;
+  width: 100%;
+  height: 2px;
+
+}
+
+.links:hover::after{
+  transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scaleX(1);
 }
 .listed-links {
   display: flex;
@@ -415,11 +432,17 @@ body {
 .testimonials-container div:nth-child(6)::before {
   background-image: url(/src/assets/aroush.jpg);
 }
-.age {
-  font-size: 25px;
-  text-align: center;
+.testimonials-container div:nth-child(7)::before{
+  background-image: url(/src/assets/annsh.jpg);
 }
 
+.testimonial-container div:nth-child(8)::before{
+  background-image: url(/src/assets/zeno.jpg);
+}
+
+.testimonial-container div:nth-child(9)::before{
+  background-image: url(/src/assets/nicole.jpg);
+}
 .testimonial-profile::before {
   content: "";
   background-repeat: no-repeat;
