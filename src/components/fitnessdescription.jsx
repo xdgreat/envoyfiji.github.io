@@ -3,7 +3,7 @@ function FitnessDescription() {
     <>
       <div className="fitness-description-container" id="motivation">
         <h1 className="fitness-title">
-          Invest in Your Fitness Journey <i class="fa-solid fa-dumbbell"></i>
+          Invest in Your Fitness Journey <i className="fa-solid fa-dumbbell"></i>
         </h1>
         <div className="fitness-description">
           Your health and well-being deserve your utmost attention. Take the

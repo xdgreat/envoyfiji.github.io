@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-row-one">
             <div className="footer-column-one">
-              <img src={logo} alt="" class="logo" />
+              <img src={logo} alt="" className="logo" />
               <h2 className="footer-name">
                 <a href="/">Envoy Fiji.</a>
               </h2>
@@ -50,14 +50,14 @@ const Footer = () => {
           <hr />
           <div className="footer-row-two">
             <a href="https://www.instagram.com/envoy.fiji/">
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-facebook-messenger"></i>
-            <i class="fa-solid fa-wifi"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook-messenger"></i>
+            <i className="fa-solid fa-wifi"></i>
             <a href="https://github.com/xdgreat/envoyfijireactproject.git">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
           </div>
           <div className="footer-row-three">

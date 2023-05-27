@@ -35,11 +35,49 @@ body {
   padding: 20px;
   width: 160px;
   filter: invert(50%);
+  transform: translateY(-100px);
+  animation: slideDownLinks cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+  animation-fill-mode: both;
+  animation-delay: 300ms;
+}
+
+@keyframes slideDownLinks {
+  from {
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
 
 .links {
   font-size: 23px;
   position: relative;
+}
+
+.links:nth-child(1) {
+  transform: translateY(-100px);
+  animation: slideDownLinks cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+  animation-fill-mode: both;
+}
+
+.links:nth-child(2){
+  transform: translateY(-100px);
+  animation: slideDownLinks cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+  animation-fill-mode: both;
+  animation-delay: 100ms;
+}
+.links:nth-child(3){
+  transform: translateY(-100px);
+  animation: slideDownLinks cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+  animation-fill-mode: both;
+  animation-delay: 200ms;
+}
+
+.links:nth-child(4){
+  transform: translateY(-100px);
+  animation: slideDownLinks cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+  animation-fill-mode: both;
+  animation-delay: 300ms;
 }
 .links::after {
   content: "";
@@ -70,14 +108,30 @@ body {
   outline: none;
   background-color: transparent;
   border: none;
+  
 }
 
 .search-bar {
   padding: 0.6em;
-  border: 1px solid black;
-  border-radius: 3px;
+  outline: 1px solid black;
+  border-radius: 1em;
   width: 300px;
   font-size: 20px;
+  transform: translateY(-100px);
+  animation: slideDownLinks cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+  animation-fill-mode: both;
+  animation-delay: 300ms;
+}
+.search{
+  background-color: black;
+  z-index: 10;
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+.search-bar:focus-within{
+  outline: 2px solid;
 }
 
 .fa-magnifying-glass {
@@ -96,6 +150,26 @@ body {
   color: #eae6e5;
 }
 
+@keyframes rightSlideHero {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutHero {
+    from{
+      transform: scale(.9);
+    }
+    to{
+      transform: scale(1);
+    }
+}
+
 .hero::before {
   content: " ";
   background-image: url(./assets/fitness.jpg);
@@ -110,6 +184,9 @@ body {
   isolation: isolate;
   z-index: -1;
   height: 65dvh;
+
+  animation: slideOutHero 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+  animation-fill-mode: forwards;
 }
 
 .hero-center-container {
@@ -123,11 +200,12 @@ body {
   position: relative;
   padding: 2em;
   color: white;
+  animation: rightSlideHero 500ms cubic-bezier(0.11, 0.29, 0.32, 1.27);
 }
 .hero-center-container::after {
   content: "";
   background-repeat: no-repeat;
-  background-image: url(./assets/EnvoyFiji.png);
+  /* background-image: url(./assets/EnvoyFiji.png); */
   background-position: center;
   background-size: contain;
   position: absolute;
@@ -154,15 +232,27 @@ body {
   gap: 20px;
 }
 
+@keyframes upSlideLinks {
+  from {
+    /* transform: translateY(100px); */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .hero-link {
   font-size: 23px;
   border: 1px solid;
-  padding: 5px;
-}
-
-.hero-link:hover {
-  background-color: #12130f;
-  transition: background-color 200ms ease-in-out;
+  padding: 0.3em;
+  border-radius: 10px;
+  animation: upSlideLinks 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-delay: 500ms;
+  transform: translateY(100px);
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .fitness-description-container {
