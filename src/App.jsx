@@ -10,7 +10,6 @@ import Newsletter from "./components/newsletter";
 import Footer from "./components/footer";
 
 function App() {
-  console.log("new update")
   return (
     <>
       <NavBar />
@@ -21,7 +20,6 @@ function App() {
       <Newsletter />
       <Testimonials />
       <Footer />
-
     </>
   );
 }
