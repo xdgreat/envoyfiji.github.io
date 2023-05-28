@@ -498,7 +498,7 @@ body {
 }
 
 .testimonials-container div:nth-child(1)::before {
-  background-image: url(/src/assets/shahaanxshane.jpg);
+  background-image: url(./assets/shahaanxshane.jpg);
 }
 
 .testimonials-container div:nth-child(2)::before {
