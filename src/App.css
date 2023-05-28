@@ -678,24 +678,44 @@ footer {
 
 .gallery {
   outline: 1px red dotted;
-  width: 80%;
-  height: 40vw;
+  height: 30vw;
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 2em;
   object-fit: cover;
 }
 
-.carousel-container {
+.history-about-container{
+  border: 1px solid black;
+  margin-top: 2em;
   width: 100%;
-  margin-inline: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  outline: 5px solid white;
+  padding: 1em;
 }
 
-.thumbs-wrapper {
-  outline: 3px red solid;
+.history-about-title{
+  font-size: 50px;
+  text-align: center;
+}
+
+.history-about-content{
+  width: 70%;
+  height: 100%;
+  margin-inline: auto;
+  outline: 1px solid white;
+  padding: 1em;
   display: flex;
   justify-content: center;
-  margin-inline: auto;
+}
+
+.history-about-content > p{
+  border: 1px solid black;
+  padding: 1em;
+  text-align: start;
+  font-size: 20px;
+  flex-basis: 33.33%;
+}
+
+.welcome{
+  font-size: 30px;
+  text-align: center;
 }
