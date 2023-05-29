@@ -897,11 +897,8 @@ footer {
   outline: none;
   border: none;
   background-color: rgba(0,0,0,.5);
+      color: rgba(225,225,225,.8);
   
-}
-
-.textbox::placeholder{
-    color: rgba(225,225,225,.8);
 }
 
 .FName,
