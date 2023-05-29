@@ -523,11 +523,11 @@ body {
   background-image: url(/src/assets/annsh.jpg);
 }
 
-.testimonial-container div:nth-child(8)::before {
+.testimonials-container div:nth-child(8)::before {
   background-image: url(/src/assets/zeno.jpg);
 }
 
-.testimonial-container div:nth-child(9)::before {
+.testimonials-container div:nth-child(9)::before {
   background-image: url(/src/assets/nicole.jpg);
 }
 .testimonial-profile::before {
