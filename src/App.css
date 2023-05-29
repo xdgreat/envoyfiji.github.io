@@ -900,7 +900,9 @@ footer {
   
 }
 
-
+.textbox::placeholder{
+    color: rgba(225,225,225,.8);
+}
 
 .FName,
 .LName,
