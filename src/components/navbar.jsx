@@ -3,7 +3,7 @@ import Searchbar from "./searchbar";
 function NavBar() {
   return (
     <>
-      <nav className="navigation">
+      <nav className="navigation" id="navigation">
         <div className="logo-container">
           <a href="">
             <img src={logo} alt="" className="logo" />

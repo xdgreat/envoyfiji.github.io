@@ -33,17 +33,17 @@ const Footer = () => {
               </a>
             </div>
             <div className="footer-column-four">
-              <a href="/" className="footer-text">
+              <a href="#navigation" className="footer-text">
                 Home
+              </a>
+              <a href="" className="footer-text">
+                About
               </a>
               <a href="/product" className="footer-text">
                 Products
               </a>
               <a href="/about" className="footer-text">
                 Contact Us
-              </a>
-              <a href="" className="footer-text">
-                About
               </a>
             </div>
           </div>
@@ -62,10 +62,9 @@ const Footer = () => {
           </div>
           <div className="footer-row-three">
             <p className="copyright footer-text">
-              ©Copyright. All rights reserved.
+              ©2023 Nikhil Naiker. All rights reserved.
             </p>
           </div>
-        <h1 className="names">Created by nikhil</h1>
         </div>
       </footer>
     </>
