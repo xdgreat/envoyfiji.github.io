@@ -1,5 +1,14 @@
 // import testimonialsData from "../testimonialsData.json";
 import TestimonialsProfile from "./testimonialsprofile";
+import shane from "../assets/shahaanxshane.jpg";
+import ridi from "../assets/ridi.jpg";
+import waji from "../assets/waji.jpg";
+import jas from "../assets/jas.png";
+import nitij from "../assets/nitij.jpg";
+import abinash from "../assets/abinash.jpg";
+import annsh from "../assets/annsh.jpg";
+import zeno from "../assets/zeno.jpg";
+import nicole from "../assets/nicole.jpg"
 
 function Testimonials() {
   const testimonialData = [
@@ -7,53 +16,53 @@ function Testimonials() {
       name: "Sharad & Shahaan",
       quote:
         "As a gym couple the program has benefited alot into our relationship which has become less abusive and more healthy and loving.",
-      imagesrc: "../assets/shahaanxshane.jpg",
+      imagesrc: shane,
     },
     {
       name: "Riddhi Bharat",
       quote:
         "I just received this 20kg bar gym equipment thing but i genuinely can not lift it to save my life but maybe im just a moron who doesnt know how to use gym equipments.",
-      imagesrc: "/assets/ridi.jpg",
+      imagesrc: ridi,
     },
     {
       name: "Waji Munshi",
       quote:
         "I was new to the gym and looking for a reliable website that sold me honest to god products, i still haven't found one yet.",
-      imagesrc: "/assets/waji.jpg",
+      imagesrc: waji,
     },
     {
       name: "Jasnil Singh",
       quote: "I'm not funny i'm just always silly and people think i'm joking",
-      imagesrc: "/assets/jas.png",
+      imagesrc: jas,
     },
     {
       name: "Nitij Shankar",
       quote:
         "I love gyming and was looking for a solid site to promote my program, safe to say i'm still in search :D",
-      imagesrc: "/assets/nitij.jpg",
+      imagesrc: nitij,
     },
     {
       name: "Abinash Rout",
       quote:
         "Thanks to this program I am literally Batman now. I can finally save the city. I am vengeance.",
-      imagesrc: "/assets/abinash.jpg",
+      imagesrc: abinash,
     },
     {
       name: "Annsh Naidu",
       quote:
         "Thanks to this website, I was able to find good fish and chips in my area.",
-      imagesrc: "/assets/annsh.jpg",
+      imagesrc: annsh,
     },
     {
       name: "Zenoabia Benazir",
       quote: "Bless this fitness program, I ain't lazy anymore (I still am)",
-      imagesrc: "/assets/zeno.jpg",
+      imagesrc: zeno,
     },
 
     {
       name: "Nicole Singh",
       quote: "I love Nikhil.",
-      imagesrc: "/assets/nicole.jpg",
+      imagesrc: nicole,
     },
   ];
 
