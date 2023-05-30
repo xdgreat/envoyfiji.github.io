@@ -36,7 +36,7 @@ const Footer = () => {
               <a href="#navigation" className="footer-text">
                 Home
               </a>
-              <a href="" className="footer-text">
+              <a href="/about" className="footer-text">
                 About
               </a>
               <a href="/product" className="footer-text">

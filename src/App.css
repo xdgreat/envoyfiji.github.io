@@ -853,7 +853,7 @@ footer {
   background-image: url(/src/assets/contactbackground.jpg);
   background-size: cover;
   background-attachment: fixed;
-  filter: blur(2px) brightness(60%);
+  filter: blur(2px) brightness(40%);
   background-repeat: no-repeat;
   background-position: bottom;
   z-index: -1;
