@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-column-one">
               <img src={logo} alt="" className="logo" />
               <h2 className="footer-name">
-                <a href="/">Envoy Fiji.</a>
+                <a href="/">Envoy Fiji</a>
               </h2>
             </div>
             <div className="footer-column-two">
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
           <div className="footer-row-three">
             <p className="copyright footer-text">
-              ©2023 Nikhil Naiker. All rights reserved.
+              ©2023 Nikhil Naiker All rights reserved.
             </p>
           </div>
         </div>

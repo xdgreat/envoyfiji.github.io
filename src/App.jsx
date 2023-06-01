@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import "./App.css";
 import "./reset.css";
 import NavBar from "./components/navbar";
@@ -10,6 +11,12 @@ import Newsletter from "./components/newsletter";
 import Footer from "./components/footer";
 
 function App() {
+  function setTitle() {
+    useEffect(() => {
+      document.title = "Envoy Fiji | Home";
+    }, []);
+  }
+  setTitle();
   return (
     <>
       <NavBar />

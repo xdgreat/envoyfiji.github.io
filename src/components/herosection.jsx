@@ -9,10 +9,10 @@ function HeroSection() {
             reach your goals. Shop now and elevate your fitness game.
           </p>
           <div className="hero-buttons">
-            <a href="" className="hero-link link-one">
+            <a href="/product" className="hero-link link-one">
               Explore.
             </a>
-            <a href="" className="hero-link link-two">
+            <a href="/about" className="hero-link link-two">
               Learn More.
             </a>
           </div>
