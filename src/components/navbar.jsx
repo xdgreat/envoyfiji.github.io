@@ -22,7 +22,7 @@ function NavBar() {
           <Link to="/product" className="links">
             Product
           </Link>
-          <Link to="" className="links">
+          <Link to="/cart" className="links">
             <i className="fa-solid fa-cart-shopping shopping-cart"></i>
           </Link>
         </div>

@@ -888,17 +888,14 @@ footer {
   font-size: 25px;
 }
 
-
-
-.textbox{
+.textbox {
   font-size: 22px;
   padding: 0.5em;
   border-radius: 10px;
   outline: none;
   border: none;
-  background-color: rgba(0,0,0,.5);
-      color: rgba(225,225,225,.8);
-  
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(225, 225, 225, 0.8);
 }
 
 .FName,
@@ -918,13 +915,13 @@ footer {
   font-size: 23px;
   padding: 0.5em;
   border-radius: 10px;
-  background-color: rgba(0,0,0,.5);
-  color: rgba(225,225,225,.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(225, 225, 225, 0.5);
 }
 
-.submit:hover{
-  background-color: rgba(0,0,0,.8);
-  color: rgba(225,225,225,.8);
+.submit:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(225, 225, 225, 0.8);
   cursor: pointer;
 }
 
@@ -955,4 +952,17 @@ footer {
 
 .social-links {
   font-size: 20px;
+}
+
+.notfound {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0 auto;
 }
