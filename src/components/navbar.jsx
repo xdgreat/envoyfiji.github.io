@@ -1,29 +1,30 @@
 import logo from "../assets/EnvoyFiji.png";
 import Searchbar from "./searchbar";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
       <nav className="navigation" id="navigation">
         <div className="logo-container">
-          <a href="">
+          <Link to="/">
             <img src={logo} alt="" className="logo" />
-          </a>
+          </Link>
         </div>
         <Searchbar />
         <div className="listed-links">
-          <a href="/" className="links">
+          <Link to="/" className="links">
             Home
-          </a>
+          </Link>
 
-          <a href="/about" className="links">
+          <Link to="/about" className="links">
             About
-          </a>
-          <a href="/product" className="links">
+          </Link>
+          <Link to="/product" className="links">
             Product
-          </a>
-          <a href="" className="links">
+          </Link>
+          <Link to="" className="links">
             <i className="fa-solid fa-cart-shopping shopping-cart"></i>
-          </a>
+          </Link>
         </div>
       </nav>
     </>
