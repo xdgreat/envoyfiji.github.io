@@ -59,11 +59,11 @@ function Testimonials() {
       imagesrc: zeno,
     },
 
-    // {
-    //   name: "Nicole Singh",
-    //   quote: "I love Nikhil.",
-    //   imagesrc: nicole,
-    // },
+    {
+      name: "Nicole Singh",
+      quote: "I love Nikhil.",
+      imagesrc: nicole,
+    },
   ];
 
   return (
