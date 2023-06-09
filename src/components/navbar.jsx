@@ -7,7 +7,7 @@ function NavBar() {
       <nav className="navigation" id="navigation">
         <div className="logo-container">
           <Link to="/">
-            <img src={logo} alt="" className="logo" />
+            <img src={logo} alt="" className="logo" loading="lazy" />
           </Link>
         </div>
         <Searchbar />

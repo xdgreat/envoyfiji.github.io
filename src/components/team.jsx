@@ -1,7 +1,7 @@
 import React from "react";
 import shruti from "../assets/shruti.jpg";
 import shahil from "../assets/shahil.jpg";
-import sarah from "../assets/sarah.jpg"
+import sarah from "../assets/sarah.jpg";
 const Team = () => {
   return (
     <>
@@ -9,9 +9,12 @@ const Team = () => {
         <h1 className="team-title">Meet Our Team</h1>
         <div className="team-content-container">
           <div className="first-member">
-          
-              <img src={shahil} alt="" className="first-member-image" />
-     
+            <img
+              src={shahil}
+              alt=""
+              className="first-member-image"
+              loading="lazy"
+            />
 
             <div className="first-member-content">
               <h1 className="first-member-title">
@@ -43,10 +46,20 @@ const Team = () => {
                 well-taken care of.
               </p>
             </div>
-            <img src={shruti} alt="" className="first-member-image" />
+            <img
+              src={shruti}
+              alt=""
+              className="first-member-image"
+              loading="lazy"
+            />
           </div>
           <div className="first-member">
-            <img src={sarah} alt="" className="first-member-image" />
+            <img
+              src={sarah}
+              alt=""
+              className="first-member-image"
+              loading="lazy"
+            />
 
             <div className="first-member-content">
               <h1 className="first-member-title">

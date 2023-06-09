@@ -2,7 +2,7 @@ function ProductCard({ image, title, description }) {
   return (
     <>
       <div className="product-card">
-        <img src={image} alt="" className="image-card"/>
+        <img src={image} alt="" className="image-card" loading="lazy"/>
         <div className="description">
           <h1 className="product-title">{title}</h1>
           <p className="product-description">{description}</p>

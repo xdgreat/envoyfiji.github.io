@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-row-one">
             <div className="footer-column-one">
-              <img src={logo} alt="" className="logo" />
+              <img src={logo} alt="" className="logo" loading="lazy"/>
               <h2 className="footer-name">
                 <a href="/">Envoy Fiji</a>
               </h2>
