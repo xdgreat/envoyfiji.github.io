@@ -1,12 +1,18 @@
-import React from 'react';
-import NavBar from '../components/navbar';
+import { React, useEffect } from "react";
+import NavBar from "../components/navbar";
 
 const Cart = () => {
-    return (
-        <>
-          <NavBar/>
-        </>
-    );
-}
+  function setTitle() {
+    useEffect(() => {
+      document.title = "Envoy Fiji | Cart";
+    }, []);
+  }
+  setTitle();
+  return (
+    <>
+      <NavBar />
+    </>
+  );
+};
 
 export default Cart;

@@ -10,7 +10,6 @@ function NavBar() {
             <img src={logo} alt="" className="logo" loading="lazy" />
           </Link>
         </div>
-        <Searchbar />
         <div className="listed-links">
           <Link to="/" className="links">
             Home
