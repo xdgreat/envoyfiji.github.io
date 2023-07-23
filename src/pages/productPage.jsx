@@ -1,8 +1,8 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import NavBar from "../components/navbar";
-import '../reset.css'
-import '../App.css'
-
+import "../reset.css";
+import "../App.css";
+import Productgallerypage from "../components/productgallerypage";
 
 function Product() {
   function setTitle() {
@@ -13,8 +13,8 @@ function Product() {
   setTitle();
   return (
     <>
-    <NavBar/>
-    
+      <NavBar />
+      <Productgallerypage />
     </>
   );
 }

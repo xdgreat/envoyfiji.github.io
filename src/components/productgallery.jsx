@@ -24,8 +24,6 @@ function ProductGallery() {
             description={"Fuel your fitness journey with delicious recipes."}
             image={recipeImage}
           />
-          
-          
         </div>
       </div>
     </>

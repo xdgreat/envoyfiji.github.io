@@ -17,7 +17,6 @@ const About = () => {
       <AboutHero />
       <Team />
       <Contact />
-      <Footer />
     </>
   );
 };
